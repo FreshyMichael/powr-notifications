@@ -17,7 +17,7 @@ Place these lines in the ```<head> ```
 
 ```<div class="notificationHeader"></div>```
 
-4. Paste the following in the <head> of the site: 
+4. Paste the following in the ```<head>``` of the site: 
 ```
 <script>
 (function($){
