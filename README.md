@@ -21,13 +21,13 @@ Place these lines in the ```<head> ```
 ```
 <script>
 (function($){
-function makeItNotified(){
-$(".notificationHeader").notificationBanner({
-         text: "Brand new site coming soon...",
-         position: "top",
-         background: "#d8a500",
-   });
-}
-$(document).ready(makeItNotified);
+         function makeItNotified(){
+                  $(".notificationHeader").notificationBanner({
+                           text: "Brand new site coming soon...",
+                           position: "top",
+                           background: "#d8a500"
+                  });
+         }
+         $(document).ready(makeItNotified);
 })(jQuery);
 </script>
